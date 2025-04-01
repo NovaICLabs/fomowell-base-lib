@@ -1,0 +1,35 @@
+{
+  "name": "fomowell-base-lib",
+  "version": "1.0.0",
+  "description": "fomowell base chain contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fomowell"
+  ],
+  "author": "btcaia",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@nomicfoundation/hardhat-ledger": "^1.0.3",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/hardhat-defender": "^2.0.0",
+    "@openzeppelin/hardhat-upgrades": "^3.2.0",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "ethers": "^6.13.1",
+    "hardhat": "^2.22.6",
+    "hardhat-contract-sizer": "^2.10.0"
+  },
+  "dependencies": {
+    "@ethersproject/keccak256": "^5.7.0",
+    "@ethersproject/strings": "^5.7.0",
+    "@nomicfoundation/hardhat-ignition": "^0.15.5",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.5",
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "keccak256": "^1.0.6",
+    "node-xlsx": "^0.24.0"
+  }
+}
